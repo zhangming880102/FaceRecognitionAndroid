@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loading_shape"
+    android:id="@+id/loading"
+    >
+    <LinearLayout
+        style="@style/layout_vertical"
+        android:layout_weight="300"
+        />
+    <TextView
+        style="@style/layout_vertical"
+        android:layout_weight="100"
+        android:textSize="20dp"
+        android:text="人脸识别签到"
+        android:clickable="false"
+        android:singleLine="false"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+</LinearLayout>

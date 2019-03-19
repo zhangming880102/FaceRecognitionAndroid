@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100px">
+
+        <LinearLayout
+            style="@style/layout_horizontal"
+            android:layout_weight="10"/>
+        <TextView
+            style="@style/layout_horizontal"
+            android:layout_weight="40"
+            android:text="时间"
+            android:id="@+id/sign_list_time"
+            android:textSize="32px"
+            android:gravity="center"
+            />
+        <LinearLayout
+            style="@style/layout_horizontal"
+            android:layout_weight="10"/>
+        <TextView
+            style="@style/layout_horizontal"
+            android:layout_weight="100"
+            android:text="签到地址"
+            android:id="@+id/sign_list_dizhi"
+            android:textSize="32px"
+            android:gravity="center"
+            />
+        <LinearLayout
+            style="@style/layout_horizontal"
+            android:layout_weight="10"/>
+        <TextView
+            style="@style/layout_horizontal"
+            android:layout_weight="40"
+            android:text="签到状态"
+            android:id="@+id/sign_list_status"
+            android:textSize="32px"
+            android:gravity="center"
+            />
+        <LinearLayout
+            style="@style/layout_horizontal"
+            android:layout_weight="10"/>
+</LinearLayout>
